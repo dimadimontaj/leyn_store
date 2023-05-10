@@ -22,10 +22,21 @@
     <list default="true" id="bc1814dd-dc72-487a-93e4-912b9c38b427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Adidas-hoodie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Black-Dr-Martens-shoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Black-Nike-Heritage-backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Blue-jacket-The-North-Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Brown-sports-oversized-top-ASOS-DESIGN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/products/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Adidas-hoodie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Black-Dr-Martens-shoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Black-Nike-Heritage-backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Blue-jacket-The-North-Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Brown-sports-oversized-top-ASOS-DESIGN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,22 +129,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1683376816532" />
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom" timestamp="1683743210881">
+    <state width="2539" height="217" key="GridCell.Tab.0.bottom" timestamp="1683745032762">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683743210881" />
-    <state width="2539" height="217" key="GridCell.Tab.0.center" timestamp="1683743210881">
+    <state width="2539" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683745032762" />
+    <state width="2539" height="217" key="GridCell.Tab.0.center" timestamp="1683745032762">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683743210881" />
-    <state width="2539" height="217" key="GridCell.Tab.0.left" timestamp="1683743210881">
+    <state width="2539" height="217" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683745032762" />
+    <state width="2539" height="217" key="GridCell.Tab.0.left" timestamp="1683745032761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683743210881" />
-    <state width="2539" height="217" key="GridCell.Tab.0.right" timestamp="1683743210881">
+    <state width="2539" height="217" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683745032761" />
+    <state width="2539" height="217" key="GridCell.Tab.0.right" timestamp="1683745032762">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683743210881" />
+    <state width="2539" height="217" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683745032762" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1683731849951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
