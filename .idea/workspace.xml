@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1814dd-dc72-487a-93e4-912b9c38b427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/product_images/Adidas-hoodie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/product_images/Black-Dr-Martens-shoes_otjYQAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/goods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,25 +130,29 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1683376816532" />
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom" timestamp="1683748047492">
+    <state width="2539" height="217" key="GridCell.Tab.0.bottom" timestamp="1683769108363">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683748047492" />
-    <state width="2539" height="217" key="GridCell.Tab.0.center" timestamp="1683748047492">
+    <state width="2539" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
+    <state width="2539" height="217" key="GridCell.Tab.0.center" timestamp="1683769108363">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683748047492" />
-    <state width="2539" height="217" key="GridCell.Tab.0.left" timestamp="1683748047492">
+    <state width="2539" height="217" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
+    <state width="2539" height="217" key="GridCell.Tab.0.left" timestamp="1683769108362">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683748047492" />
-    <state width="2539" height="217" key="GridCell.Tab.0.right" timestamp="1683748047492">
+    <state width="2539" height="217" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108362" />
+    <state width="2539" height="217" key="GridCell.Tab.0.right" timestamp="1683769108363">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683748047492" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1683731849951">
+    <state width="2539" height="217" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
+    <state x="741" y="370" key="SettingsEditor" timestamp="1683765259328">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1683731849951" />
+    <state x="741" y="370" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1683765259328" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1683765172677">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1683765172677" />
   </component>
 </project>
