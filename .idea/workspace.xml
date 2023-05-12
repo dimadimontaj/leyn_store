@@ -19,19 +19,24 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1814dd-dc72-487a-93e4-912b9c38b427" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/product_images/Adidas-hoodie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/product_images/Black-Dr-Martens-shoes_otjYQAM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/fixtures/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/fixtures/goods.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +120,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="871" y="449" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683731986079">
@@ -130,22 +148,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1683376816532" />
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom" timestamp="1683769108363">
+    <state width="2539" height="291" key="GridCell.Tab.0.bottom" timestamp="1683849289798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
-    <state width="2539" height="217" key="GridCell.Tab.0.center" timestamp="1683769108363">
+    <state width="2539" height="291" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683849289798" />
+    <state width="2539" height="291" key="GridCell.Tab.0.center" timestamp="1683849289798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
-    <state width="2539" height="217" key="GridCell.Tab.0.left" timestamp="1683769108362">
+    <state width="2539" height="291" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683849289798" />
+    <state width="2539" height="291" key="GridCell.Tab.0.left" timestamp="1683849289798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108362" />
-    <state width="2539" height="217" key="GridCell.Tab.0.right" timestamp="1683769108363">
+    <state width="2539" height="291" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683849289798" />
+    <state width="2539" height="291" key="GridCell.Tab.0.right" timestamp="1683849289798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="217" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683769108363" />
+    <state width="2539" height="291" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683849289798" />
     <state x="741" y="370" key="SettingsEditor" timestamp="1683765259328">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
