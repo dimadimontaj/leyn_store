@@ -31,10 +31,8 @@
     <list default="true" id="bc1814dd-dc72-487a-93e4-912b9c38b427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/baskets.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/baskets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,22 +145,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1683376816532" />
-    <state width="2539" height="291" key="GridCell.Tab.0.bottom" timestamp="1683930184728">
+    <state width="2539" height="291" key="GridCell.Tab.0.bottom" timestamp="1683931779267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="291" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683930184728" />
-    <state width="2539" height="291" key="GridCell.Tab.0.center" timestamp="1683930184728">
+    <state width="2539" height="291" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1683931779267" />
+    <state width="2539" height="291" key="GridCell.Tab.0.center" timestamp="1683931779267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="291" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683930184728" />
-    <state width="2539" height="291" key="GridCell.Tab.0.left" timestamp="1683930184728">
+    <state width="2539" height="291" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1683931779267" />
+    <state width="2539" height="291" key="GridCell.Tab.0.left" timestamp="1683931779267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="291" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683930184728" />
-    <state width="2539" height="291" key="GridCell.Tab.0.right" timestamp="1683930184728">
+    <state width="2539" height="291" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1683931779267" />
+    <state width="2539" height="291" key="GridCell.Tab.0.right" timestamp="1683931779267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="291" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683930184728" />
+    <state width="2539" height="291" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1683931779267" />
     <state x="741" y="370" key="SettingsEditor" timestamp="1683765259328">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
