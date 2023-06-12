@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-DOMAIN_NAME = 'http://localhost:8000'
+DOMAIN_NAME = 'http://127.0.0.1:8000'
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'django.contrib.humanize',
 
     'allauth',
     'allauth.account',
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
 
     'products',
     'users',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -182,3 +184,7 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
     }
 }
+
+
+STRIPE_PUBLIC_KEY = 'pk_test_51NI6NCFywMDiRt89mefZnuSOBmOIaz42xd2yyvX3Se8Cy1JHqxD6UQslHewoN5gG2pypDwTRp9F2F4oWJGxvldC800wlOQRwIO'
+STRIPE_SECRET_KEY = 'sk_test_51NI6NCFywMDiRt89qsxkTbSEhCpDpTW1DeKrQuFXDfnn3D39aWplwBB1p1l6Zrr8fDYo7RJyYe9Pq3K3izwb8Jx600LSvsvtJI'

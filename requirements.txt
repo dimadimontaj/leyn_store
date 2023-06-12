@@ -8,3 +8,4 @@ isort
 psycopg2
 django-allauth
 django-debug-toolbar
+stripe
