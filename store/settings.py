@@ -38,6 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.github',
+    "debug_toolbar",
 
     'products',
     'users',
@@ -51,6 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 ROOT_URLCONF = 'store.urls'
@@ -74,6 +82,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'store.wsgi.application'
 
+INTERNAL_IPS = [
+    "127.0.0.1",
+    'localhost',
+]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -153,3 +165,20 @@ EMAIL_PORT = 465
 EMAIL_HOST_USER = 'irudakova7@yandex.ru'
 EMAIL_HOST_PASSWORD = 'qabatohmjmcqkexi'
 EMAIL_USE_SSL = True
+
+# OAuth
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+SITE_ID = 1
+
+SOCIALACCOUNT_PROVIDERS = {
+    'github': {
+        'SCOPE': [
+            'user',
+        ],
+    }
+}

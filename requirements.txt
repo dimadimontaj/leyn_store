@@ -6,3 +6,5 @@ sqlparse==0.4.4
 flake8
 isort
 psycopg2
+django-allauth
+django-debug-toolbar
