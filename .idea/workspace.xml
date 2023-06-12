@@ -29,22 +29,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1814dd-dc72-487a-93e4-912b9c38b427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/email_verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -141,30 +139,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="871" y="449" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1683731986079" />
+    <state x="408" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686499999976">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="408" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1686499999976" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1683376816532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1683376816532" />
-    <state width="1256" height="290" key="GridCell.Tab.0.bottom" timestamp="1686497686438">
+    <state width="1256" height="290" key="GridCell.Tab.0.bottom" timestamp="1686499851817">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="290" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1686497686438" />
-    <state width="1256" height="290" key="GridCell.Tab.0.center" timestamp="1686497686438">
+    <state width="1256" height="290" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1686499851817" />
+    <state width="1256" height="290" key="GridCell.Tab.0.center" timestamp="1686499851816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="290" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1686497686438" />
-    <state width="1256" height="290" key="GridCell.Tab.0.left" timestamp="1686497686438">
+    <state width="1256" height="290" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1686499851816" />
+    <state width="1256" height="290" key="GridCell.Tab.0.left" timestamp="1686499851816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="290" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1686497686438" />
-    <state width="1256" height="290" key="GridCell.Tab.0.right" timestamp="1686497686438">
+    <state width="1256" height="290" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1686499851816" />
+    <state width="1256" height="290" key="GridCell.Tab.0.right" timestamp="1686499851816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="290" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1686497686438" />
-    <state x="741" y="370" key="SettingsEditor" timestamp="1683765259328">
+    <state width="1256" height="290" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1686499851816" />
+    <state x="419" y="479" key="SettingsEditor" timestamp="1686499798661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="741" y="370" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1683765259328" />
+    <state x="419" y="479" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1686499798661" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1683765172677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
